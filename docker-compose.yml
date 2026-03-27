@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: dagdegas-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./services.json:/app/services.json
+    restart: always
