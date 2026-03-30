@@ -1,9 +1,12 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" /></div>
-</div>
+<img width="100" height="100" alt="GHBanner" src="https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas_icon.png" /></div>
 
-## Introduction
+<div align="center">
+<h3>Dagdegas</h3>
 A little tool to compare the Milan's Carsharing rates for long renting car
+</div>
+<div align="center">
+</div>
 
 ### 2. Data Persistence
 Saved rates are stored in the `services.json`file. The `docker-compose.yml` file includes a volume to map this file to your host, ensuring that data is not lost when the container restarts.
@@ -39,7 +42,7 @@ services:
       - NODE_ENV=production
     image: fujicicimolly/dagdegas:latest
     labels:
-      icon: https://github.com/larrotino/Dagdegas-new/blob/main/icon_big.png?raw=true
+      icon: https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas_icon.png
     ports:
       - target: 3000
         published: "10001"
@@ -58,7 +61,7 @@ x-casaos:
   author: self
   category: self
   hostname: ""
-  icon: https://github.com/larrotino/Dagdegas-new/blob/main/icon_big.png?raw=true
+  icon: https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas_icon.png
   index: /
   is_uncontrolled: false
   port_map: "10001"
