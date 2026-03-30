@@ -1,11 +1,10 @@
 <div align="center">
-<img width="100" height="100" alt="GHBanner" src="https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas_icon.png" /></div>
+<img width="100" height="100" alt="Logo" src="https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas_icon.png" /></div>
 
 <div align="center">
 <h3>Dagdegas</h3>
-A little tool to compare the Milan's Carsharing rates for long renting car
-</div>
-<div align="center">
+A little tool to compare the Milan's Carsharing rates for long renting car <br/><br/>
+  <img alt="Dagdegas" src="https://raw.githubusercontent.com/larrotino/Dagdegas/refs/heads/main/Dagdegas-screenshot.png" style="visibility: visible; max-width: 100%;" />
 </div>
 
 ### 2. Data Persistence
