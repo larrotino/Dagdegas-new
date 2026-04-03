@@ -12,6 +12,8 @@ export interface CarSharingTariff {
   kmIncluded: number;
   pricePerExtraKm: number;
   unlockFee: number;
+  airportFee: number;
+  maxTimeCost?: number;
   color: string;
   type: ServiceType;
 }
@@ -20,6 +22,7 @@ export interface CalculationInput {
   days: number;
   hours: number;
   estimatedKm: number;
+  isAirport: boolean;
 }
 
 export interface CalculationResult {
